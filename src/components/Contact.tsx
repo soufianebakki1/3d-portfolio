@@ -114,10 +114,11 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>{config.developer.fullName}</span>
+              Developed <br /> by <span>{config.developer.fullName}</span>
             </h2>
             <h5>
-              <MdCopyright /> {new Date().getFullYear()}
+              <MdCopyright /> {new Date().getFullYear()} {config.developer.fullName}. All
+              rights reserved.
             </h5>
           </div>
         </div>

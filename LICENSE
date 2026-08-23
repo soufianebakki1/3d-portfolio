@@ -1,7 +1,16 @@
-MIT License
+This repository is a derivative work and is covered by two separate sets of
+terms. Read both before reusing anything from it.
 
-Copyright (c) 2025 Redoyanul Haque (original template)
-Copyright (c) 2026 Soufiane Bakki (modifications)
+
+===============================================================================
+PART 1 - ORIGINAL TEMPLATE CODE (MIT License)
+===============================================================================
+
+Copyright (c) 2025 Redoyanul Haque
+
+This project began as a fork of a portfolio template released under the MIT
+License. Those original portions remain under the MIT License and its notice
+is retained here as that license requires.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,3 +29,30 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+===============================================================================
+PART 2 - PERSONAL CONTENT AND ASSETS (All Rights Reserved)
+===============================================================================
+
+Copyright (c) 2026 Soufiane Bakki. All rights reserved.
+
+The MIT grant in Part 1 applies to the template source code only. It does NOT
+apply to the personal content in this repository. The following may not be
+copied, reproduced, republished, or redistributed, in whole or in part,
+without prior written permission from Soufiane Bakki:
+
+  - Photographs, likeness and portraits of Soufiane Bakki
+    (including public/images/me.jpg)
+  - The curriculum vitae / resume (public/CResume.pdf)
+  - All biographical text, project descriptions, case studies and other
+    written copy (including the contents of src/config.ts)
+  - Project screenshots and imagery in public/images/
+  - The name "Soufiane Bakki" and any associated personal branding
+
+Using this repository as a starting point for your own portfolio is fine under
+Part 1 - replace the content covered by Part 2 with your own. Presenting this
+person's identity, work history, or projects as your own is not permitted by
+either part.
+
+Contact: soufiane.bakki178@gmail.com
