@@ -81,3 +81,29 @@
     font-size: 18px;
   }
 }
+
+
+/* ---- Mobile fixes: fixed header had no backdrop and stacked its links,
+       so it sat on top of every heading it scrolled past ---- */
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 16px;
+    align-items: center;
+    background: rgba(11, 8, 12, 0.82);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  }
+
+  .header ul {
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .header ul li {
+    margin: 0;
+  }
+}

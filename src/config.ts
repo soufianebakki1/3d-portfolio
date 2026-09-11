@@ -18,55 +18,85 @@ export const config = {
     },
     experiences: [
         {
-            position: "Fullstack Developer Intern",
-            company: "EzzaBtp Group",
-            period: "Feb 2025 - Aug 2025",
+            position: "Full Stack Developer - Stage Pre-Embauche",
+            company: "Major Media",
+            period: "Jul 2026 - Present",
             location: "Agadir, Morocco",
-            description: "Completed a 6-month internship working on full-stack development projects. Built and maintained web applications, collaborated with the development team, and gained hands-on experience with modern frameworks.",
+            description: "Pre-hire internship building and maintaining full-stack web applications end to end, from database design and APIs to polished, responsive interfaces.",
+            responsibilities: [
+                "Developing full-stack features across the front and back end",
+                "Designing REST APIs and database schemas",
+                "Building responsive, accessible user interfaces",
+                "Deploying and maintaining applications in production"
+            ],
+            technologies: ["React", "Next.js", "TypeScript", "Node.js", "PostgreSQL", "Git"]
+        },
+        {
+            position: "Full Stack Developer Intern",
+            company: "EZZABTP",
+            period: "Jan 2025 - Aug 2025",
+            location: "Agadir, Morocco",
+            description: "Completed a 6-month full-stack internship. Built and maintained web applications, collaborated with the development team, and gained hands-on experience with modern frameworks.",
             responsibilities: [
                 "Developing and maintaining web applications",
                 "Working with React, PHP, and MySQL",
-                "Collaborating with team on Agile workflows",
+                "Collaborating with the team on Agile workflows",
                 "Building responsive and accessible interfaces"
             ],
             technologies: ["React", "PHP", "MySQL", "JavaScript", "Git", "Agile"]
         },
         {
-            position: "Freelance Developer",
-            company: "Personal & Client Projects",
-            period: "Jun 2024 - Jan 2025",
+            position: "Specialized Technician in Software Development",
+            company: "Education",
+            period: "2024 - 2025",
             location: "Agadir, Morocco",
-            description: "Built various web and mobile applications for clients and personal projects. Developed full-stack solutions, REST APIs, and cross-platform mobile apps.",
+            description: "Two-year professional diploma in software development, covering programming fundamentals, databases, and web application development.",
             responsibilities: [
-                "Building full-stack web applications",
-                "Developing cross-platform mobile apps with Flutter",
-                "Creating RESTful APIs and database schemas",
-                "Deploying and maintaining applications"
+                "Object-oriented programming and algorithms",
+                "Relational database design and SQL",
+                "Web development with front-end and back-end stacks",
+                "Software analysis, design, and project work"
             ],
-            technologies: ["React", "Next.js", "Flutter", "Node.js", "MongoDB", "TypeScript"]
+            technologies: ["JavaScript", "PHP", "MySQL", "HTML/CSS", "UML", "Git"]
         },
         {
-            position: "Self-Learning Developer",
-            company: "Personal Development",
-            period: "Sep 2024 - Present",
+            position: "Baccalaureate in Physical Sciences",
+            company: "Education",
+            period: "2023 - 2024",
             location: "Agadir, Morocco",
-            description: "Continuously learning and building projects to improve skills in full-stack development, mobile development, and software engineering best practices.",
+            description: "High school diploma in physical sciences, building a strong foundation in mathematics and scientific reasoning.",
             responsibilities: [
-                "Building daily projects to practice new skills",
-                "Exploring Flutter and cross-platform development",
-                "Learning software architecture and design patterns",
-                "Contributing to open-source projects"
+                "Physics and chemistry",
+                "Mathematics",
+                "Life and earth sciences",
+                "Scientific analysis and problem solving"
             ],
-            technologies: ["React", "Flutter", "Node.js", "TypeScript", "Docker", "Git"]
+            technologies: ["Physics", "Mathematics", "Chemistry", "Problem Solving"]
         }
     ],
     projects: [
+        {
+            id: 6,
+            title: "Major Media",
+            category: "Web Development / Marketing Agency",
+            technologies: "Next.js, TypeScript, Tailwind CSS, Framer Motion, Three.js",
+            image: "/images/major-media.png",
+            description: "Official website for Major Media, a full-service web & marketing agency in Morocco, showcasing its Marketing Avenue, Code District, Brand Factory, and Event Street divisions."
+        },
+        {
+            id: 7,
+            title: "Aveiro",
+            category: "Web Development / Corporate Site",
+            technologies: "Next.js, TypeScript, Tailwind CSS, GSAP, Lenis",
+            image: "/images/aveiro.png",
+            description: "Corporate website for AVEIRO Morocco, a seafood processing and export company, featuring its factories, clients, and talent programs."
+        },
         {
             id: 1,
             title: "Pickma",
             category: "Full Stack / Mobile",
             technologies: "React, Node.js, MongoDB, Flutter, TypeScript",
-            image: "/images/pickma.jpg",
+            image: "/images/pickma.png",
             description: "A comprehensive application for organizing games and tournaments. Features user management, match scheduling, real-time scoring, and team coordination."
         },
         {

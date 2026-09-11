@@ -101,3 +101,15 @@ div.resume-button span {
     margin-top: -1.5px;
   }
 }
+
+
+/* ---- Mobile fix: the fixed RESUME rail floated over body copy ---- */
+@media only screen and (max-width: 768px) {
+  .resume-button {
+    background: rgba(11, 8, 12, 0.8);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 6px;
+    padding: 8px 4px;
+  }
+}

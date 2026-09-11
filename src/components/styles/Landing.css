@@ -556,3 +556,37 @@ h2.landing-info-h2 {
     font-size: 75px;
   }
 }
+
+/* ---- Mobile fixes: hero role line was overflowing both edges at 390px ---- */
+@media only screen and (max-width: 768px) {
+  .landing-info {
+    max-width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+
+  .landing-info h2,
+  h2.landing-info-h2,
+  .landing-h2-1,
+  .landing-h2-info {
+    max-width: 100%;
+    letter-spacing: 0 !important;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+
+  .landing-h2-1 {
+    font-size: clamp(19px, 5.8vw, 26px) !important;
+    line-height: 1.25 !important;
+  }
+
+  .landing-h2-info {
+    font-size: clamp(14px, 4.2vw, 19px) !important;
+    line-height: 1.35 !important;
+  }
+
+  /* the hero reserved desktop-sized dead space below the role line */
+  .landing-container {
+    padding-bottom: 16px;
+  }
+}

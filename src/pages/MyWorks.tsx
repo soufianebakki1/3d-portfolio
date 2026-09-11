@@ -6,7 +6,7 @@ const MyWorks = () => {
   return (
     <div className="myworks-page">
       <div className="myworks-header">
-        <Link to="/" className="back-button" data-cursor="disable">
+        <Link to="/#work" className="back-button" data-cursor="disable">
           ← Back to Home
         </Link>
         <h1>

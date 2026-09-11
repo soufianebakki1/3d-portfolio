@@ -33,3 +33,6 @@ redoxchess-engine/
 # Build logs / scratch
 build_output.txt
 build_errors.txt
+
+.vercel
+.env*

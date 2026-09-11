@@ -269,3 +269,29 @@
     justify-content: left;
   }
 }
+
+/* ---- Mobile fix: role and date sat in a 40%-wide flex row and collided ---- */
+@media only screen and (max-width: 600px) {
+  .career-info-box {
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 40px;
+  }
+
+  .career-info-in {
+    width: 100%;
+    flex-direction: column;
+    gap: 4px;
+    padding-left: 0;
+  }
+
+  .career-info-box p {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .career-info h3 {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+}

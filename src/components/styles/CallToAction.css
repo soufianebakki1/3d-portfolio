@@ -74,3 +74,12 @@
     text-align: center;
   }
 }
+
+
+/* ---- Mobile fix: width:100% plus horizontal padding pushed the section
+       30px past the viewport ---- */
+.cta-section {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow-x: hidden;
+}

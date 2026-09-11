@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import "./styles/WhatIDo.css";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { config } from "../config";
+import VantaDotsBackground from "./VantaDotsBackground";
 
 const WhatIDo = () => {
   const containerRef = useRef<(HTMLDivElement | null)[]>([]);
@@ -27,6 +28,7 @@ const WhatIDo = () => {
   }, []);
   return (
     <div className="whatIDO">
+      <VantaDotsBackground />
       <div className="what-box">
         <h2 className="title">
           W<span className="hat-h2">HAT</span>
