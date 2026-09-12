@@ -141,8 +141,7 @@ export const config = {
         resume: "/CResume.pdf"
     },
     seo: {
-        // TODO: replace with the live domain once deployed - OpenGraph needs an absolute URL
-        siteUrl: "https://soufianebakki.vercel.app",
+        siteUrl: "https://3d-portfolio-one-sand.vercel.app",
         title: "Soufiane Bakki - Full-Stack Developer | React, Next.js, Flutter",
         description: "Full-Stack Developer from Agadir, Morocco. I build modern web and mobile applications with React, Next.js, Flutter and Node.js.",
         // TODO: swap for a dedicated 1200x630 preview card - me.jpg is only 413px wide
